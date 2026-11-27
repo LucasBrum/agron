@@ -1,7 +1,7 @@
 [project]
 name = "agron"
 version = "0.1.0"
-description = "Add your description here"
+description = "FastAPI service that turns an agronomic model (growing degree days) into an API, with hexagonal architecture"
 readme = "README.md"
 authors = [
     { name = "LucasBrum", email = "lucasbrumofficial@gmail.com" }
