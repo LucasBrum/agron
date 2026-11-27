@@ -16,7 +16,7 @@ STAGES = [
 def growing_degree_days(weather: pl.DataFrame, base_temp: float = BASE_TEMP_C) -> float:
     """ Soma, dia a dia, quanto a temperatura média passou da temperatura base. """
     result = weather.select(
-        (((pl.col("t_min") + pl/col("t_max")) / 2) - base_temp)
+        (((pl.col("t_min") + pl.col("t_max")) / 2) - base_temp)
         .clip(lower_bound=0)
         .sum()
         .alias("gdd")

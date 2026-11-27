@@ -2,7 +2,7 @@ import csv
 from datetime import date, timedelta
 
 start = date(2026, 9, 1)
-with open("data/weather.csv", "w", newline="") as f;
+with open("data/weather.csv", "w", newline="") as f:
     writer = csv.writer(f)
     writer.writerow(["date", "t_min", "t_max"])
     for i in range(120):

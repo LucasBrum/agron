@@ -14,6 +14,6 @@ class Field:
 
     def __post_init__(self) -> None:
         if self.area_ha <= 0:
-            raise ValueError("area_ha must be grater tahn zero")
+            raise ValueError("area_ha must be greater than zero")
         if self.id is None:
             self.id = uuid4()
