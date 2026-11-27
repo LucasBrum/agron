@@ -16,8 +16,8 @@ usando o modelo de **graus-dia (soma térmica)**, o método que agrônomos usam 
 [![Ruff](https://img.shields.io/badge/Ruff-D7FF64?logo=ruff&logoColor=black)](https://docs.astral.sh/ruff/)
 [![pytest](https://img.shields.io/badge/pytest-0A9EDC?logo=pytest&logoColor=white)](https://docs.pytest.org/)
 
-[![English](https://img.shields.io/badge/lang-English-blue)](README.md)
-[![Português](https://img.shields.io/badge/lang-Portugu%C3%AAs-green)](README.pt-BR.md)
+🇺🇸 [![English](https://img.shields.io/badge/lang-English-blue)](README.md) &nbsp;&nbsp;
+🇧🇷 [![Português](https://img.shields.io/badge/lang-Portugu%C3%AAs-green)](README.pt-BR.md)
 
 </div>
 
